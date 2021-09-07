@@ -11,17 +11,19 @@
 #
 #   Dette betyr at
 #
-#       check_legal_driving_age(17, "Norway")
+#       age = 17
+#       country = "Norway"
 #
-#   skal returnere noe sånt som
+#   skal printe noe sånt som
 #
 #       "The person is not old enough to drive ⛔",
 #
 #   og at
-
-#       check_legal_driving_age(17, "USA")
 #
-#   skal returnere noe sånt som
+#       age = 17
+#       country = "USA"
+#
+#   skal printe noe sånt som
 #
 #       "The person is old enough to drive 🚗"
 #
@@ -29,22 +31,24 @@
 #   Bruk kodeskjelettet under til å fullføre funksjonen!
 #
 
-def check_legal_driving_age(age: int, country: str):
+age = 17
+country = "Norway"
 
-    print("")
-    # LF:
-    # can_drive = False
+#
+#   Skriv koden din her!
+#
 
-    # if country == "Norway":
-    #     can_drive = (age >= 18)
-    # elif country == "USA":
-    #     can_drive = (age >= 16)
+print("The person is not old enough to drive ⛔")
 
-    # if can_drive:
-    #     print("The person is old enough to drive 🚗")
-    # else:
-    #     print("The person is not old enough to drive ⛔")
+# LF:
+# can_drive = False
 
+# if country == "Norway":
+#     can_drive = (age >= 18)
+# elif country == "USA":
+#     can_drive = (age >= 16)
 
-check_legal_driving_age(17, "Norway")
-check_legal_driving_age(17, "USA")
+# if can_drive:
+#     print("The person is old enough to drive 🚗")
+# else:
+#     print("The person is not old enough to drive ⛔")
