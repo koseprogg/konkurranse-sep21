@@ -31,11 +31,3 @@ num_2 = 0
 #
 
 print([num_1, num_2])
-#
-#   LF:
-#
-# x.sort(reverse=True)
-# for i in range(len(x)):
-#     for k in range(i + 1, len(x)):
-#         if x[i] + x[k] == goal:
-#             print([x[i], x[k]])

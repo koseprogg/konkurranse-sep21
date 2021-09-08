@@ -41,15 +41,3 @@ country = None  # Noe input
 
 print("The person is not old enough to drive ⛔")
 
-# LF:
-# can_drive = False
-
-# if country == "Norway":
-#     can_drive = (age >= 18)
-# elif country == "USA":
-#     can_drive = (age >= 16)
-
-# if can_drive:
-#     print("The person is old enough to drive 🚗")
-# else:
-#     print("The person is not old enough to drive ⛔")
