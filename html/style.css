@@ -1,0 +1,30 @@
+.redtext {
+  color: black;
+}
+
+
+
+
+.hint {
+  cursor: pointer;
+  background-color: #ccc;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
