@@ -31,12 +31,13 @@
 #   Bruk kodeskjelettet under til å fullføre funksjonen!
 #
 
-age = 17
-country = "Norway"
+age = None  # Noe input (hint: Husk å konvertere til tall med int() )
+country = None  # Noe input
 
 #
 #   Skriv koden din her!
 #
+
 
 print("The person is not old enough to drive ⛔")
 
